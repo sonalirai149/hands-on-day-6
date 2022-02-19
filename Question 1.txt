@@ -1,0 +1,15 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        String [] list={"ABC22","bcd21","ghi22","fti20"};
+        int count=0;
+        for(int i=0;i<list.length;i++){
+            if(list[i].endsWith("22")){
+                System.out.println(" Batch id ends with 22 : "+list[i]);
+                count++;
+            }
+        }
+        System.out.println(" count of Batch id ends with 22 : "+count);
+        
+     }
+}

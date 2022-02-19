@@ -1,0 +1,25 @@
+public class HelloWorld{
+
+     public static void main(String []args){
+        String [] list={"MsDhoni_Batsman","Viratkohli_Batsman","Yuvrajsingh_Allrounder","Yuzchahal_Bowler","Zaheerkhan_Bowler"};
+        int count1=0,count2=0,count3=0;
+        for(int i=0;i<list.length;i++){
+            if(list[i].endsWith("Batsman")){
+                System.out.println(" Batsman : "+list[i]);
+                count1++;
+            }
+            if(list[i].endsWith("Bowler")){
+                System.out.println(" Bowler : "+list[i]);
+                count2++;
+            }
+            if(list[i].endsWith("Allrounder")){
+                System.out.println(" Allrounder : "+list[i]);
+                count3++;
+            }
+        }
+        System.out.println(" count of Batsman : "+count1);
+        System.out.println(" count of Bowler : "+count2);
+        System.out.println(" count of Allrounder : "+count3);
+        
+     }
+}
